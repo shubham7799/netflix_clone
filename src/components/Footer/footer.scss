@@ -1,0 +1,29 @@
+.footerContent{
+    margin: 150px 50px 50px 50px;
+    .footerRow{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        color: gray;
+        p{
+            font-size: 14px;
+            width: 20vw;
+            cursor: pointer;
+        }
+        span{
+            margin-top: 50px;
+        }
+    }
+    .creator{
+        color: gray;
+        margin-top: 70px;
+        text-align: center;
+        span{
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        margin: 150px 20px 50px 30px;
+    }
+}
